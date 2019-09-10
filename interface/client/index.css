@@ -1,0 +1,13 @@
+h1,  ul {
+    text-align: center;
+}
+.jtp {
+	text-align: center;
+}
+.jumbotron{
+    text-align : center;
+}
+
+input[type=submit] {
+  background: #D8BFD8;
+}

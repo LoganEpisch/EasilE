@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="./client/index.css">
+      
+      
+      <script type="text/javascript" src="./client/loginscript.js"></script>
+      
+      <title>EasilE</title>
+  </head>
+
+  <body> 
+      <div class="jumbotron">
+        <h1>EasilE</h1>      
+        <p class="jtp">Please enter the local host port your webapp is currently running on</p>
+        
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+      </div>
+
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+		  <form name = "loginCheck" method = "POST" action="/servePortNumber">
+		  <p>Access Port</p>
+		  <input type="number" class="form-control" name="portNumber" placeholder= "Enter Port Mumber" maxlength="30">
+		  <br/>
+          <input class="form-control" type="submit" value="Submit">
+          </form>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+  </body>
+</html>

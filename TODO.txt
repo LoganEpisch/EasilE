@@ -1,0 +1,10 @@
+TO DO
+set up a tool to monitor and track keystrokes and clicks:
+keys
+https://dmauro.github.io/Keypress/
+
+mouse
+https://stackoverflow.com/questions/25260681/record-mouse-movements-and-store-data-on-database
+
+then just instead of console logging put it into a seperate file, at which point we can then translate and be gtg
+
